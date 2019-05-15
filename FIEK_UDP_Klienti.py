@@ -37,9 +37,8 @@ while 1:
             print("Shtypni 'ENTER' per te vazhduar")
             input()
             cls()
-    except Exception as error:
+    except ValueError:
         print("Ka ndodhur nje gabim")
-        print(str(error))
 
         
 
