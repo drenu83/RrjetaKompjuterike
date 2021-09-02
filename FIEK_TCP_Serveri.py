@@ -9,7 +9,7 @@ serverSocket.bind(('', serverPort))
 print('--------------FIEK TCP Serveri----------------')
 print('Serveri u startua ne localhost me portin:'+str(serverPort))
 serverSocket.listen(5)
-print('Serveri eshte i gatshem te pranoj kerkesa ')
+print('Serveri eshte i gatshem')
 print('----------------------------------------------')
 
 def IPADRESA():
